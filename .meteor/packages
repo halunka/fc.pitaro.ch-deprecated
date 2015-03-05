@@ -8,3 +8,5 @@ meteor-platform
 insecure
 mike:mocha
 practicalmeteor:munit
+xolvio:cucumber
+xolvio:webdriver

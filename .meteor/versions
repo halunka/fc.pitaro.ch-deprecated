@@ -48,7 +48,6 @@ routepolicy@1.0.4
 session@1.0.5
 spacebars@1.0.5
 spacebars-compiler@1.0.4
-spacejamio:munit@2.1.2
 templating@1.0.11
 test-helpers@1.0.3
 tinytest@1.0.4
@@ -63,3 +62,5 @@ velocity:shim@0.1.0
 velocity:test-proxy@0.0.4
 webapp@1.1.6
 webapp-hashing@1.0.2
+xolvio:cucumber@0.3.1
+xolvio:webdriver@0.1.4
