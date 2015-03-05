@@ -6,7 +6,5 @@
 
 meteor-platform
 insecure
-mike:mocha
-practicalmeteor:munit
-xolvio:cucumber
-xolvio:webdriver
+xolvio:cucumber@0.3.10
+velocity:html-reporter
