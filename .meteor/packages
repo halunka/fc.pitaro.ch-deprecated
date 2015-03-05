@@ -8,3 +8,4 @@ meteor-platform
 insecure
 mike:mocha
 spacejamio:munit
+practicalmeteor:munit
