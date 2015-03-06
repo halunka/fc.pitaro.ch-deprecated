@@ -8,3 +8,4 @@ meteor-platform
 insecure
 xolvio:cucumber@0.3.10
 velocity:html-reporter
+iron:router
