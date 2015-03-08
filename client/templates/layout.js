@@ -3,3 +3,5 @@ Template.pagesList.helpers({
     return Pages.find();
   }
 });
+
+Meteor.subscribe('pages');

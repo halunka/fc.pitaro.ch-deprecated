@@ -3,3 +3,5 @@ Template.scoresList.helpers({
     return Scores.find();
   }
 });
+
+Meteor.subscribe('scores');

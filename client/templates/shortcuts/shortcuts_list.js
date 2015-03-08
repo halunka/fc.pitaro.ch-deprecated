@@ -3,3 +3,5 @@ Template.shortcutsList.helpers({
     return Shortcuts.find();
   }
 });
+
+Meteor.subscribe('shortcuts');
