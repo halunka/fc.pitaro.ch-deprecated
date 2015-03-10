@@ -9,10 +9,31 @@ if (Pages.find().count() === 0) {
 
 if (Scores.find().count() === 0) {
   Scores.insert({
-    homeTeam: 'FC Pitaro Fotografie',
+    homeTeam: 'FC Pitaro',
     visitingTeam: 'Chur 97',
     homeScore: '3',
     visitingScore: '0'
+  });
+
+  Scores.insert({
+    homeTeam: 'FC Pitaro',
+    visitingTeam: 'FC Ems',
+    homeScore: '0',
+    visitingScore: '7'
+  });
+
+  Scores.insert({
+    homeTeam: 'FC Pitaro',
+    visitingTeam: 'Metallbau',
+    homeScore: '1',
+    visitingScore: '1'
+  });
+
+  Scores.insert({
+    homeTeam: 'FC Pitaro',
+    visitingTeam: 'FCB',
+    homeScore: '1',
+    visitingScore: '1'
   });
 }
 

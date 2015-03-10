@@ -5,6 +5,7 @@
 # but you can also edit it by hand.
 
 meteor-platform
-xolvio:cucumber@0.3.10
-velocity:html-reporter
+# xolvio:cucumber@0.3.10
+# velocity:html-reporter
 iron:router
+less

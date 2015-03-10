@@ -5,3 +5,4 @@ Template.pagesList.helpers({
 });
 
 Meteor.subscribe('pages');
+
