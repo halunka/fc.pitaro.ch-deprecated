@@ -1,7 +1,7 @@
 Template.scoresList.helpers({
   scores: function() {
-    return Scores.find();
+    return Matches.find();
   }
 });
 
-Meteor.subscribe('scores');
+Meteor.subscribe('matches');

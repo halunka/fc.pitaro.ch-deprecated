@@ -3,9 +3,9 @@ Meteor.publish('pages',
       return Pages.find();
 });
 
-Meteor.publish('scores',
+Meteor.publish('matches',
     function() {
-      return Scores.find();
+      return Matches.find();
 });
 
 Meteor.publish('shortcuts',
