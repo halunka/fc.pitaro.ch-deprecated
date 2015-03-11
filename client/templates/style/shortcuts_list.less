@@ -5,7 +5,7 @@
 @import "typography.less";
 @import "colours.less";
 
-.shortcuts__list {
+.shortcuts a {
 
   .shortcut-text;
 
@@ -30,24 +30,23 @@
 
   .shortcuts {
 
-    background-color: white;
 
   }
 
   .shortcut {
 
-    width: 33.333%;
+    width: calc(100% / 3);
     display: inline-block;
     margin-left: -5px;
     border-right: 0.1rem solid white;
-    background-color: @green;
 
   }
 
-  .scores li:nth-child(4) {
+  .shortcuts li:last-child {
     
     border-right: none;
 
   }
+
 
 }
