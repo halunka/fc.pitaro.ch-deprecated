@@ -9,3 +9,6 @@ meteor-platform
 # velocity:html-reporter
 iron:router
 less
+aldeed:autoform
+aldeed:collection2
+aldeed:simple-schema
