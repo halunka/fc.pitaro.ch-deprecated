@@ -1,27 +1,22 @@
 <template name="layout">
-  <head>
-    <title>FC Pitaro</title>
-  </head>
-  <body>
-    <header>
-      <section class="nav__logo">
-        <h1>FC Pitaro</h1>
-      </section>
+<header>
+  <section class="nav__logo">
+    <h1>FC Pitaro</h1>
+  </section>
 
-      <nav>
-        {{> pagesList}}
-      </nav>
-    </header>
+  <nav>
+    {{> pagesList}}
+  </nav>
+</header>
 
-    <main>
-      {{> yield}}
-    </main>
+<main>
+  {{> yield}}
+</main>
 
-    <footer>
-      <section class="sitemap">
-        <h3>Sitemap</h3>
-        {{> pagesList}}
-      </section>
-    </footer>
-  </body>
+<footer>
+  <section class="sitemap">
+    <h3>Sitemap</h3>
+    {{> pagesList}}
+  </section>
+</footer>
 </template>

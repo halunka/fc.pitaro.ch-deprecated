@@ -1,0 +1,52 @@
+/*---------------------------
+  Shortcuts List
+----------------------------*/
+
+@import "typography.less";
+@import "colours.less";
+
+.shortcuts a {
+
+  .shortcut-text;
+
+}
+
+.shortcut {
+
+  height: 5.5rem;
+  text-align: center;
+  vertical-align: middle;
+  padding: 2rem 0rem;
+  border-bottom: 0.15rem solid white;
+
+}
+
+
+/*---------------------------
+  Media Queries
+----------------------------*/
+
+@media all and (min-width: 1200px) {
+
+  .shortcuts {
+
+
+  }
+
+  .shortcut {
+
+    width: calc(100% / 3);
+    display: inline-block;
+    margin-left: -5px;
+    border-right: 0.1rem solid white;
+
+  }
+
+  .shortcuts li:last-child {
+    
+    border-right: none;
+
+  }
+
+
+}

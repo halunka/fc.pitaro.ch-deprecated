@@ -16,7 +16,7 @@ module.exports = function () {
 
   this.Then(/^I see the derby "([^"]*)"$/, function (expectedHeading, callback) {
     helper.world.browser.
-      getText('h1', function (error, actualHeading) {
+      getText(, function (error, actualHeading) {
         assert.equal(actualHeading, expectedHeading);
         callback();
       });

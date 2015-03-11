@@ -5,7 +5,10 @@
 # but you can also edit it by hand.
 
 meteor-platform
-insecure
-xolvio:cucumber@0.3.10
-velocity:html-reporter
+# xolvio:cucumber@0.3.10
+# velocity:html-reporter
 iron:router
+less
+aldeed:autoform
+aldeed:collection2
+aldeed:simple-schema
