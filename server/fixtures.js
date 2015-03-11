@@ -9,31 +9,47 @@ if (Pages.find().count() === 0) {
 
 if (Matches.find().count() === 0) {
   Matches.insert({
-    homeTeam: 'FC Pitaro',
-    visitingTeam: 'Chur 97',
-    homeScore: '3',
-    visitingScore: '0'
+    teams: {
+      home: 'FC Pitaro',
+      visiting: 'Chur 97'
+    },
+    scores: {
+      home: 3,
+      visiting: 0
+    }
   });
 
   Matches.insert({
-    homeTeam: 'FC Pitaro',
-    visitingTeam: 'FC Ems',
-    homeScore: '0',
-    visitingScore: '7'
+    teams: {
+      home: 'FC Pitaro',
+      visiting: 'FC Ems'
+    },
+    scores: {
+      home: 0,
+      visiting: 7
+    }
   });
 
   Matches.insert({
-    homeTeam: 'FC Pitaro',
-    visitingTeam: 'Metallbau',
-    homeScore: '1',
-    visitingScore: '1'
+    teams: {
+      home: 'FC Pitaro',
+      visiting: 'Metallbau'
+    },
+    scores: {
+      home: 1,
+      visiting: 1
+    }
   });
 
   Matches.insert({
-    homeTeam: 'FC Pitaro',
-    visitingTeam: 'FCB',
-    homeScore: '1',
-    visitingScore: '1'
+    teams: {
+      home: 'FC Pitaro',
+      visiting: 'FCB'
+    },
+    scores: {
+      home: 1,
+      visiting: 1
+    }
   });
 }
 
