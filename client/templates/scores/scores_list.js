@@ -4,4 +4,3 @@ Template.scoresList.helpers({
   }
 });
 
-Meteor.subscribe('matches');
